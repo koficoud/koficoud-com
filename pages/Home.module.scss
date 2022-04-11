@@ -1,0 +1,21 @@
+.headerHome {
+  position: relative;
+  &Background {
+    background-color: #343434;
+    background-image: url("/header-home.jpg");
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 80% 90%, 50% 100%, 20% 90%, 0 100%, 0% 35%, 0 0);
+  }
+  &Icon {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 25%);
+  }
+}
+.briefHome {
+  text-align: center;
+  padding: 30px;
+}
