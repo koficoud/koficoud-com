@@ -63,7 +63,6 @@ function Layout({ children, title }) {
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
       <main className={style.main}>
         <ThemeProvider theme={theme}>
