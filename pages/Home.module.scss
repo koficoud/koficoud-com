@@ -2,11 +2,18 @@
   position: relative;
   &Background {
     background-color: #343434;
-    background-image: url("/header-home.jpg");
+    background-image: url("/small-header-home.webp");
     background-position: center;
+    background-size: cover;
     height: 300px;
     width: 100%;
     clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 80% 90%, 50% 100%, 20% 90%, 0 100%, 0% 35%, 0 0);
+    @media screen and (min-width: 600px) {
+      background-image: url("/large-header-home.webp");
+    }
+    @media screen and (min-width: 1000px) {
+      background-image: url("/header-home.webp");
+    }
   }
   &Icon {
     position: absolute;

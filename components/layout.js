@@ -37,16 +37,20 @@ function Layout({ children, title }) {
         </title>
         {/* Meta tags */}
         <title>KofiCoud - Software Developer</title>
-        <meta name="title" content="KofiCoud - Software Developer" />
+        <meta name="title" content="KofiCoud - Software Engineer" />
         <meta name="description" content="Hola, mi nombre es Fernando López y soy un desarrollador Full Stack. Me especializo en diferentes lenguajes de programación cómo PHP, Python, Java, Kotlin, Dart, y JavaScript (TypeScript). Así como en gestores de bases de datos: MySQL, PostgreSQL y MongoDB. Sin olvidar las tecnologías del lado del cliente web cómo HTML y CSS." />
+
         <meta property="og:type" content="website" />
         <meta property="og:url" content="http://koficoud.com/" />
         <meta property="og:title" content="KofiCoud - Software Developer" />
         <meta property="og:description" content="Hola, mi nombre es Fernando López y soy un desarrollador Full Stack. Me especializo en diferentes lenguajes de programación cómo PHP, Python, Java, Kotlin, Dart, y JavaScript (TypeScript). Así como en gestores de bases de datos: MySQL, PostgreSQL y MongoDB. Sin olvidar las tecnologías del lado del cliente web cómo HTML y CSS." />
+        <meta property="og:image" content="/header-home.webp" />
+
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="http://koficoud.com/" />
         <meta property="twitter:title" content="KofiCoud - Software Developer" />
         <meta property="twitter:description" content="Hola, mi nombre es Fernando López y soy un desarrollador Full Stack. Me especializo en diferentes lenguajes de programación cómo PHP, Python, Java, Kotlin, Dart, y JavaScript (TypeScript). Así como en gestores de bases de datos: MySQL, PostgreSQL y MongoDB. Sin olvidar las tecnologías del lado del cliente web cómo HTML y CSS." />
+        <meta property="twitter:image" content="/header-home.webp" />
 
         {/* Favicon */}
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

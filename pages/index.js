@@ -30,7 +30,7 @@ export default function Home() {
               Kofi Coud
             </Typography>
             <Typography variant="h2" gutterBottom component="h2">
-              Software Developer
+              Software Engineer
             </Typography>
             <Typography variant="body1" gutterBottom>
               {/* eslint-disable-next-line max-len */}
